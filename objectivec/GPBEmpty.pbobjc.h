@@ -45,7 +45,7 @@ NS_ASSUME_NONNULL_BEGIN
  * which is a @c GPBExtensionRegistry that includes all the extensions defined by
  * this file and all files that it depends on.
  **/
-GPB_FINAL @interface GPBEmptyRoot : GPBRootObject
+ @interface GPBEmptyRoot : GPBRootObject
 @end
 
 #pragma mark - GPBEmpty
@@ -61,7 +61,7 @@ GPB_FINAL @interface GPBEmptyRoot : GPBRootObject
  *
  * The JSON representation for `Empty` is empty JSON object `{}`.
  **/
-GPB_FINAL @interface GPBEmpty : GPBMessage
+ @interface GPBEmpty : GPBMessage
 
 @end
 

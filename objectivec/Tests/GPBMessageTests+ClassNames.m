@@ -38,14 +38,14 @@
 #import "GPBRootObject_PackagePrivate.h"
 
 // Support classes for tests using old class name (vs classrefs) interfaces.
-GPB_FINAL @interface MessageLackingClazzRoot : GPBRootObject
+ @interface MessageLackingClazzRoot : GPBRootObject
 @end
 
 @interface MessageLackingClazzRoot (DynamicMethods)
 + (GPBExtensionDescriptor *)ext1;
 @end
 
-GPB_FINAL @interface MessageLackingClazz : GPBMessage
+ @interface MessageLackingClazz : GPBMessage
 @property(copy, nonatomic) NSString *foo;
 @end
 

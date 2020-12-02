@@ -45,7 +45,7 @@ NS_ASSUME_NONNULL_BEGIN
  * which is a @c GPBExtensionRegistry that includes all the extensions defined by
  * this file and all files that it depends on.
  **/
-GPB_FINAL @interface GPBTimestampRoot : GPBRootObject
+ @interface GPBTimestampRoot : GPBRootObject
 @end
 
 #pragma mark - GPBTimestamp
@@ -148,7 +148,7 @@ typedef GPB_ENUM(GPBTimestamp_FieldNumber) {
  * http://www.joda.org/joda-time/apidocs/org/joda/time/format/ISODateTimeFormat.html#dateTime%2D%2D
  * ) to obtain a formatter capable of generating timestamps in this format.
  **/
-GPB_FINAL @interface GPBTimestamp : GPBMessage
+ @interface GPBTimestamp : GPBMessage
 
 /**
  * Represents seconds of UTC time since Unix epoch
