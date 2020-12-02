@@ -116,9 +116,9 @@
 #define GPB_METHOD_FAMILY_NONE __attribute__((objc_method_family(none)))
 
 // Prevent subclassing of generated proto classes.
-#ifndef 
-#define  __attribute__((objc_subclassing_restricted))
-#endif  // 
+//#ifndef
+//#define  __attribute__((objc_subclassing_restricted))
+//#endif  //
 
 // ----------------------------------------------------------------------------
 // These version numbers are all internal to the ObjC Protobuf runtime; they
